@@ -1,11 +1,20 @@
 {
- "name":"coap-router",
- "version":"0.1",
- "description":"CoAP Express-like RESTful router",
- "keywords":["connect","middleware","router","route","coap"],
- "repository": {"type": "git", "url": "git://github.com/mainflux/coap-router"},
- "contributors": [
-  "Drasko DRASKOVIC <drasko.draskovic@mainflux.com>",
- ],
- "dependencies": {}
+  "name": "coap-router",
+  "version": "0.0.1",
+  "description": "CoAP Express-like RESTful router",
+  "keywords": [
+    "connect",
+    "middleware",
+    "router",
+    "route",
+    "coap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mainflux/coap-router"
+  },
+  "contributors": [
+    "Drasko DRASKOVIC <drasko.draskovic@mainflux.com>"
+  ],
+  "dependencies": {}
 }
