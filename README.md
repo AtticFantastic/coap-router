@@ -1,11 +1,11 @@
 # Lean Router
 
-A lean and mean HTTP and CoAP router for [node.js](http://nodejs.org), based on [gett/router](https://github.com/mafintosh/router) by Mathias Buus Madsen and Ian Jorgensen.
+A lean and mean CoAP router for [node.js](http://nodejs.org), based on [gett/router](https://github.com/mafintosh/router) by Mathias Buus Madsen and Ian Jorgensen.
 
 It is available through npm:
 
 ```bash
-npm install lean-router
+npm install coap-router
 ```
 
 ## Usage
@@ -13,8 +13,8 @@ npm install lean-router
 Router does one thing and one thing only - route http requests.
 
 ``` js
-var http = require('http');
-var router = require('lean-router');
+var coap = require('coap');
+var router = require('coap-router');
 var route = router();
 
 route.get('/', function(req, res) {
@@ -22,7 +22,7 @@ route.get('/', function(req, res) {
 	res.end('hello index page');
 });
 
-http.createServer(route).listen(8080); // start the server on port 8080
+coap.createServer(route).listen(8080); // start the server on port 8080
 ```
 
 If you want to grab a part of the path you can use capture groups in the pattern:
