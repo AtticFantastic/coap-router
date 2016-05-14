@@ -1,7 +1,7 @@
 {
-  "name": "coap-router",
+  "name": "lean-router",
   "version": "0.0.1",
-  "description": "CoAP Express-like RESTful router",
+  "description": "A lean and mean http router for NodeJS",
   "keywords": [
     "connect",
     "middleware",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mainflux/coap-router"
+    "url": "git://github.com/mainflux/lean-router"
   },
   "contributors": [
     "Drasko DRASKOVIC <drasko.draskovic@mainflux.com>"
