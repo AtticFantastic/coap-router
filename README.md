@@ -1,6 +1,6 @@
 # Lean Router
 
-A lean and mean http router for [node.js](http://nodejs.org), based on [gett/router](https://github.com/mafintosh/router) by Mathias Buus Madsen and Ian Jorgensen.
+A lean and mean HTTP and CoAP router for [node.js](http://nodejs.org), based on [gett/router](https://github.com/mafintosh/router) by Mathias Buus Madsen and Ian Jorgensen.
 
 It is available through npm:
 
