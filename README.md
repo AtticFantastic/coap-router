@@ -1,4 +1,4 @@
-# Lean Router
+# CoAP Router
 
 A lean and mean CoAP router for [node.js](http://nodejs.org), based on [gett/router](https://github.com/mafintosh/router) by Mathias Buus Madsen and Ian Jorgensen.
 
